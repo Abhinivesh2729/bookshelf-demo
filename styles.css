@@ -32,7 +32,7 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 300px);
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 24px;
   justify-content: center;
   padding: 24px;
